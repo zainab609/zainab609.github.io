@@ -1,0 +1,130 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+    font-family:'Courier New', Courier, monospace;
+    margin: 1vw;
+    color: #f6cfb1;
+    background-color: rgb(169, 12, 12);
+}
+
+#main-nav {
+    font-family: Verdana, Tahoma, sans-serif;
+
+    width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f6cfb1;
+	border-top: 1px solid rgb(130, 7, 32);
+    border-bottom: 1px solid rgb(130, 7, 32);
+  }
+
+#main-nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+
+    display: flex;
+    justify-content: center;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 3px;
+    float: left;
+}
+
+#main-nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(169, 12, 12);
+	border-right: 1px solid #000000; 
+}
+
+#main-nav li:first-child a {
+    border-left: 1px solid #000000; 
+}
+
+#main-nav li a:hover {
+    color: rgb(122, 10, 150);
+    background-color: #fff; 
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:800px) {
+    #main-nav ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-nav li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #main-nav li a{
+        border-left: 1px solid rgb(130, 7, 32); 
+    }
+
+    #main-nav li:not(:last-child) {
+        border: none;
+        border-bottom: 1px solid rgb(130, 7, 32);
+    }
+
+    #main-nav li:first-child a {
+        border-left: 1px solid rgb(130, 7, 32); 
+    }
+}
+
+img {
+    width: 50vw;
+    height: 50vh;
+    padding: 0vw;
+    margin: 0 auto;
+    width: 50% auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 5vw 0;
+    width: 100%;
+    border-bottom: 1px dashed black;
+    color: rgb(130, 7, 32);
+}
+
+h3 {
+    padding: 2vh;
+    font-weight: bolder;
+    font-size: x-large;
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f6cfb1;
+}
+
+section {
+    padding: 5vw;
+}
+
+body {
+    background-color:rgb(255, 239, 220);
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 2;
+}
